@@ -1,6 +1,3 @@
-# bash
-# ros2 launch my_robot_description rviz_sim.launch.py
-
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
