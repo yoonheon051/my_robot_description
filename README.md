@@ -7,8 +7,8 @@ ubuntu 22.04
 ROS2 Humble
 
 ## 🐊패키지 구성 요소 
-**`urdf/`**: 로봇과 그리퍼의 결합 구조를 정의하는 Xacro 파일들이 포함되어 있습니다. 
-**`meshes/`**: RViz 시각화를 위한 .stl 모델 파일들입니다. M0609와 RG2에 필수적인 파일만 남겨 최적화되었습니다. 
+**`urdf/`**: 로봇과 그리퍼의 결합 구조를 정의하는 Xacro 파일들이 포함되어 있습니다. /n
+**`meshes/`**: RViz 시각화를 위한 .stl 모델 파일들입니다. M0609와 RG2에 필수적인 파일만 남겨 최적화되었습니다. /n
 **`launch/`**: `rviz_sim.launch.py`를 통해 로봇 상태 게시와 시각화를 한 번에 실행합니다. 
 **`rviz/`**: `base_link` 고정 및 TF/RobotModel 자동 활성화 설정이 담긴 `default.rviz` 파일이 포함되어 있습니다. 
 
