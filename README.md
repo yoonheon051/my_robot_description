@@ -45,3 +45,6 @@ cd ~/ros2_ws
 rosdep install -i --from-path src --rosdistro $ROS_DISTRO -y
 colcon build --packages-select my_robot_description
 source install/setup.bash
+
+# 실행
+ros2 launch my_robot_description rviz_sim.launch.py
