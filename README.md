@@ -17,7 +17,7 @@ ROS2 Humble
 **`rviz/`**: `base_link` 고정 및 TF/RobotModel 자동 활성화 설정이 담긴 `default.rviz` 파일이 포함되어 있습니다. 
 
 ## 빌드 및 설치 방법 
-```bash
+```
 # 패키지 리스트 업데이트
 sudo apt update
 
@@ -38,8 +38,9 @@ sudo apt install ros-humble-gazebo-ros2-control
 
 # 워크스페이스 이동
 cd ~/ros2_ws/src
-git clone [https://github.com/yoonheon051/my_robot_description.git](https://github.com/yoonheon051/my_robot_description.git)
-
+git clone https://github.com/yoonheon051/my_robot_description.git
+```
+```
 # 의존성 설치 및 빌드
 cd ~/ros2_ws
 rosdep install -i --from-path src --rosdistro $ROS_DISTRO -y
@@ -48,3 +49,4 @@ source install/setup.bash
 
 # 실행
 ros2 launch my_robot_description rviz_sim.launch.py
+```
